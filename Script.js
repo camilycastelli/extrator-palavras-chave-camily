@@ -1,11 +1,11 @@
 const botaoMostraPalavras = document.querySelector("#botao-palavrachave");
 
-botaoMostraPalavras.addEventListener("click", mostraPalavrasChave);
+botaoMostraPalavras.addEventListener("click", motraPalavrasChave);
 
 function mostraPalavrasChave(){
-    const texto = document.querySelector("#entrada-de-texto").value;
-    const campoResultado = document.querySelector("#reultado-palavrachave");
-    const palavras = texto.split(" ");
+const texto = document. querySelector("#entrada-de-texto").value;
+const campoResultado = document.querySelector("#resultado-palavrachave");
+const palavras = texto.split(" ");
 
-    campoResultado.textContent = palavras.join(", ")
+campoResultado.textContent = palavras.joing(", ")
 }
